@@ -12,7 +12,7 @@ import java.util.List;
 
 
 @RestController
-@CrossOrigin(origins = "")
+@CrossOrigin(origins = "https://frontend-demo-bice.vercel.app/")
 public class UserController {
     @Autowired
     UserRepository userRepo;
